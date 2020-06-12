@@ -10,14 +10,6 @@
   <title>{{ page.title | append: " | " | default:"" }}{% include _i18n/i18n.html value=site.title %}</title>
   {% endif %}
 
-  {% if page.seo.description %}
-  <meta name="description" content="{{ page.seo.description | truncate: 160 }}">
-  {% elsif page.summary %}
-  <meta name="description" content="{{ page.summary | truncate: 160 }}">
-  {% else %}
-  <meta name="description" content="{% include _i18n/i18n.html value=site.description %}">
-  {% endif %}
-
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{% include _i18n/i18n.html value=site.title %}" href="{{ "/feed.xml" | relative_url }}">
