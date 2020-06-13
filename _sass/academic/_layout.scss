@@ -141,7 +141,7 @@
   }
   &:hover {
     text-decoration: none;
-    border-bottom: 5px $brand-color solid;
+    border-bottom: 5px $grey-color solid;
   }
 
   b {
@@ -152,7 +152,7 @@
 .with-pitch {
   &:hover {
     border-bottom: none;
-    color: $brand-color;
+    color: $grey-color;
   }
 }
 
@@ -302,7 +302,7 @@
 
 .site-footer {
   @include size(vsmall);
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color;
   color: $grey-color;
 
   a {
@@ -316,7 +316,7 @@
     margin-bottom: $spacing-unit;
 
     .author, .author a {
-      color: $grey-color-light;
+      color: $grey-color;
     }
   }
 
@@ -379,7 +379,7 @@
   }
 
   .bottom {
-    color: $grey-color-light;
+    color: $grey-color;
     width: 100%;
     clear: both;
     float: none;
@@ -392,7 +392,7 @@
     }
 
     a {
-      color: $grey-color-light;
+      color: $grey-color;
     }
 
     .cc-licence {
