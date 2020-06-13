@@ -9,8 +9,8 @@ layout: default
     <img class="user-picture" src="https://github.com/{{ site.github_username }}.png" alt="{{ site.author }}">
     {% endif %}
     
-     Email: <a href"mailto:sgarg33@wisc.edu">sgarg33@wisc.edu</a> <br />
-     <a href="https://scholar.google.com/citations?user=V02t618AAAAJ&hl=en&oi=ao">Google Scholar</a> / <a href="https://www.semanticscholar.org/author/Siddhant-Garg/2295877">Semantic Scholar</a> <br />
+<!--      Email: <a href"mailto:sgarg33@wisc.edu">sgarg33@wisc.edu</a> <br /> -->
+<!--      <a href="https://scholar.google.com/citations?user=V02t618AAAAJ&hl=en&oi=ao">Google Scholar</a> <br /> -->
     
     <ul class="contact-list">
       {% if site.email %}
@@ -33,7 +33,9 @@ layout: default
       </li>
       {% endif %}
     </ul>
-
+    <li>
+        {% include _icons/email.html username=sgarg33@wisc.edu %}
+    </li>
     {% include contactlist.html %}
 
   </div>
