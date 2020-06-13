@@ -44,3 +44,7 @@ $on-laptop:        700px;
 
 // Import partials from the `minima` theme.
 @import "academic";
+
+.inner {
+  max-width: 75%;
+}
